@@ -1,0 +1,30 @@
+/************/
+/* layout.css */
+/************/
+
+/* Macro layout */
+
+body-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header-container > header {
+    width: minmax(var(--main-width), 100%);
+    margin: 0 auto;
+    padding: var(--spacing);
+}
+
+main-container {
+    flex-grow: 1;
+    width: minmax(var(--main-width), 100%);
+    margin: 0 auto;
+    padding: var(--spacing);
+}
+
+footer-container {
+    width: minmax(var(--main-width), 100%);
+    margin: 0 auto;
+    padding: var(--spacing);
+}
